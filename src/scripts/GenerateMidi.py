@@ -405,7 +405,6 @@ def match_color_chord(color):
     
     return hex_to_sound_file_map[closest_color]
 
-
 def process(filename):
     current_midi = "0"
     current_chord_progression = []
@@ -441,7 +440,6 @@ def main():
     for filename in os.listdir(color_folder):
         current_filename = filename
         pipeline(f'{color_folder}/{filename}')
-
 
 if __name__ == "__main__":
     main()
