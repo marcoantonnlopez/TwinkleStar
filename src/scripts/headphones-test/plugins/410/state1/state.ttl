@@ -1,0 +1,18 @@
+@prefix atom: <http://lv2plug.in/ns/ext/atom#> .
+@prefix lv2: <http://lv2plug.in/ns/lv2core#> .
+@prefix pset: <http://lv2plug.in/ns/ext/presets#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix state: <http://lv2plug.in/ns/ext/state#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<>
+	a pset:Preset ;
+	lv2:appliesTo <https://distrho.kx.studio/plugins/cardinal#fx> ;
+	state:state [
+		<urn:distrho:patch> "KLUv/QBIfSYAOkK4CyjwToYFCDkHar0iXgQzKcB7H0InExRXDFaNoyiyr3qe1M/JRPZM1hIDqgCzALcAEFHj8P+YUs411ZhS6SVXWFL+/x/BAM0mkvbBP9Lw8CMpqdfSe+tBuKDq1Yp2+H+koamUvG4NKpLk8P8IhCt8J7QsCiR9IPhHGhTrBVnS0D3X6fVT9BV+WHuBf6RhRs+9wnJGRKhG/CMN3IqlUHyFq6XQMyP4RzD0E4ytlFpiKTHmujtRLSRBwThudAQoOtGdeOKFokR7ott63VeqX3enxtI78dZedycEKAIwXWHmSkqhNmqjNhjHjc5vE8Vlyk/m1kalZyAi+zDXAYKic4h+UWDBuKzxlspoQG3UxqLAgnEoapw3QPexzi2VUbw6FJnfRW3cGukTI/7gwCdzD9FDlGlQG7UB4PZ+PqyjmQ74Ct8K885ZbQK+whA1NvzzFWZudGZDF/4VjjfKBDu1191eexCqdIXlYjaRtIy7zOYBwhWGHvGJTj/2UmngVpgN+Ao3U9oHN7FS+UQCfIUrDZFtZq2RIXAjp1JpGReKDf8wJVeYcVy64EKRYaGxDtTMWiPjYK61D4ghamRAwVmLAgvGM29DDzgkA0GfI61IylIZDbiQRZCUw4SeGTGfdIXnBQo9c1miCPPCnM9iq31MqInLFaaLbfgKT2kfExwxgoXYOBmOpE4Nk+caW011Shp03RLshLHnEscUfYVn1MQI/n86E0C3zkf0XKguZhMhPnHBSyxhLj0GHXTJc1dYUkYe+mf/bx3OEBmQhx+BDddzDSbYFlyQJcsin2oppZSSphxUjb32oGvsudZWQ/XcW1A11g26yFhLGGtMtaXcU2xZkrmWc4liSiWWUlpJY0wqBV2vpNpincBeLFkwPdZUs5Y6aStxj1VTbVkC8BV+bGMdlVbKixs5N7KRcyOr2mKPwfdWU8lzLEJ0MLIchyssF5fzPjOiUv7/pq6wXDD8O/HBnMhYz7zzEZ+4gPVLTM0HbbCSG4DNqEFBQkZGAAAAmAEEFACgAoCZIWIFEgBACEAoniYhhIIghgIBAgSAIQMIIERAAhFAFUwSBIz07SDMUS1/AJHRDOQ+gKxShgTv1PS7oILxr6MjJ77FSpRWMtp/HR05RYZrTR2FRYZrc7JJCb6rqaa1FFCRSESS/wSj48SlfaimoJozxRabKyBZfWnc4aI9ODB4jIW307UJMKaczwwJC6W5z1BtWdDWeTQTeEjiSQsgNlycwPBQgeTw24gFovlxF2fLXZIDt8Am3IYTWjBS6kSlghIeybqFkl8HOfHdaSm2Sj5tYVRgmlr41pZutvuM9CP7vGGkpyXwj8mseZHVGExwsemKU+pBiX5GSBDnXuW30TRAchwhxD3bEqQvnqu8/mdQyvSJFGGwF1DpiXLN6CjAHBjdSVTX1UON/qpAhCfOQ3Atqm3rTM6ZhQjeVBNNSfQM6z2sWAN0+PSQrAJ0U6e7wbHd7gwO4bqKAkEABj8kZg7d62EIUUgsbAUJZETK1ycMQeT4FeCB53xMAyhk4cm7QtD+qOqO8OhgbzkzvV6CmHFP3TWnU5d8YPRFrO/FtfQfzg0IuH+xq6Q1hgCWwfj+A1B73sajRyK0kg4FXzYRQvODm2pqlmGTd617Ag==" ;
+		<urn:distrho:windowSize> "" ;
+		<https://distrho.kx.studio/plugins/cardinal#fx#screenshot> "" ;
+		<https://distrho.kx.studio/plugins/cardinal#fx#comment> ""
+	] .
+

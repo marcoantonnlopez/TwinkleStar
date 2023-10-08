@@ -1,0 +1,18 @@
+@prefix atom: <http://lv2plug.in/ns/ext/atom#> .
+@prefix lv2: <http://lv2plug.in/ns/lv2core#> .
+@prefix pset: <http://lv2plug.in/ns/ext/presets#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix state: <http://lv2plug.in/ns/ext/state#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<>
+	a pset:Preset ;
+	lv2:appliesTo <https://distrho.kx.studio/plugins/cardinal#synth> ;
+	state:state [
+		<https://distrho.kx.studio/plugins/cardinal#synth#screenshot> "" ;
+		<https://distrho.kx.studio/plugins/cardinal#synth#comment> "" ;
+		<urn:distrho:patch> "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" ;
+		<urn:distrho:windowSize> ""
+	] .
+

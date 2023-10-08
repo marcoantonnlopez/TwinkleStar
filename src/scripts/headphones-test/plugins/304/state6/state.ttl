@@ -1,0 +1,18 @@
+@prefix atom: <http://lv2plug.in/ns/ext/atom#> .
+@prefix lv2: <http://lv2plug.in/ns/lv2core#> .
+@prefix pset: <http://lv2plug.in/ns/ext/presets#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix state: <http://lv2plug.in/ns/ext/state#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<>
+	a pset:Preset ;
+	lv2:appliesTo <https://distrho.kx.studio/plugins/cardinal#synth> ;
+	state:state [
+		<https://distrho.kx.studio/plugins/cardinal#synth#screenshot> "" ;
+		<https://distrho.kx.studio/plugins/cardinal#synth#comment> "" ;
+		<urn:distrho:patch> "KLUv/QBIZSYA5v2wJvBwWAD4b6XWKwJmgCQHN/v7WziXKfOyJYmgBMVY79+HxeHNKY8BowCoAKgAOcM+9J+ebMWXnuiVakUn/aevVHFNFATK51yM0MHnXJPzT1ep//9nOCw7XRVf+mcgEz/zIovRaaaDsZHPmZJF2MD/MxAWcQP/z0j86WwtCFqoUlXRPwNhkfanLxhv9M9AmkWaiOs/fbFkVfaif4aD/dFi01pz0LX3ImPscbFlEYksmVIEEfZg7FHRbF0P+EeMjWTsEUrJGGvwtbPHIZSMsQdBJBP+P6a6w2l/OspVwriVW7mVW4ksmVLP00UhW2+jfCuWdMkE4gJvcCiQXOALE4hbJItSXHIrt0IpoCTcuibqECtfVL7wsVQveneLRs+UW8mXShW9eJSvhsNtlG9Jt6To4VZuBeA4316wZbIR/adzhs3WXqzQf7ri0qn//tNRppSdJKj/p2mm9cHomGNwThkdc+1PV4qdrooTMmSnCYk/bV1oRSlW4SxVg9SVKk7IFp36d9r805ElSwzZotOfthUnaEyY6t+a7L00svRvrYlCfzrKGF+srri0AYOiFFASGsZeVf7Tlc2TdGCp70yTDZuNdM1N1zxHOizVS5ItjCBda21AMoFwZyBjbGEC0RwGW3Oi46Zs080XVUhV42R78M3mwNZYnFNG+Fjj2tNV6gj70/aa6EX/f4NDgSRfe6H1XgcONvI5zoTOjE7CP12lZibYHx3MxM/QJpvZyMZpTZNuOrBVCUEONjdlc03CyNh0oBMdZKzBKOFsTDqNyQhBlsLBprXYInvQQeg0EDQtYzM6jcXZ5HvxNa/C2LTY3GtmA2Wbsh1sHAgK6D9d4Qlb3pWu1JWSLypfuC8qX5jNKedjrkU5IWyQglrkowz86Ur5rypXmyt7caX+ofvTlRL1T9HLo2jCtCqb7YVWlOHlC0/2XhpN8hWA3qjRLUIiAyACQBoQJLACABGhKg4SYEAADEeEMQzBGI6BGIERbIwAAggIYMxAgZw2CUj0bxBurVrVRHWhe6YCBAsRBeLYWP2FDhp2YStDM1xGyNQS2wi+YagjoUwiITH1d4b2aOCEcgSQyE7pLQjx3C54bl2zFA1ipCmCpCVbM8Iz8Rg0FuCQ4joISAPrEW9sktqjAm88JjhoKYIp9ie3v3N46KX93yZPWtmSKP8dlbCGZe2aZKqTqktN280g9QoQ9wOlnml7an10LnU0IFZyZjZbkg5q0bFW15bs5QlxRlWfQ9ZCZgrIeCc3c2wLbyjdZm7BNyHkZuIpN2UwopTx1EvEvl1HtRpGoRhOUnvUCMka3qH0VslrZxuVfcbscEKfLRFMSfVLUAy5f8UIiQphIh82kzDwcCeR8gIC10y81pVgpOqOzQyjGHy0v5gl+U6bDd72WdHo65dTyVSwDDmzqNUg9gb46cM2C0GNScxt9fvYvVMvd+LHlYYh00wdQoh7Lu1JbbVEMBIitOts2WW8Tv4KT0j9QM9xEN5xRoihlD4wNTYLQTT6y2lqBVeXXHN9A/oAHBjVcq5cmqN+PXdkeMgCUkatNe0meBtX9HwNqHOhvhzpRXOfSddxU+hsQK9/Q/qB/mY3MxtM2B8QzznYI1Uiw5NQYOK+SAQ0UCO8mYsZ5OHwBA==" ;
+		<urn:distrho:windowSize> ""
+	] .
+
