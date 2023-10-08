@@ -16,6 +16,18 @@
   }
 }
 
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05); /* Puedes ajustar el nivel de zoom aquí */
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -33,18 +45,40 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-  
 }
 
 .body {
   width: 100%;
-  height: 100%;
-  background-image: url('/public/enanaBlancaCap5.jpg');
-
+  height: 100vh;
+  background-image: url('/enanaBlancaCap5.jpg');
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*cubre el ancho o alto */
+  background-attachment: fixed;
+  /* ----- */
+  position: relative;
+  width: 100%;
+  height: 100vh;
 }
 
+.zoom-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/enanaBlancaCap5.jpg');
+  background-size: cover;
+  background-position: center;
+  animation: zoom 20s infinite alternate; /* Puedes ajustar la duración de la animación aquí */
+}
 
 #header {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.839), rgba(168, 168, 168, 0));
   display: flex;
   flex-direction: row;
   justify-content: start;
